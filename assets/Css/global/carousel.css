@@ -5,12 +5,11 @@
     justify-content: center;
     min-height: 81vh;
     color: #ffffff;
-  
     & #cardHtml,
     #cardCss,
     #cardJs,
     #cardBoot,
-    #CardTsSql,
+    #CardSql,
     #CardTwBoot,
     #CardWp {
       background-color: var(--cor-White);
@@ -62,7 +61,7 @@
     #cardCss:hover,
     #cardJs:hover,
     #cardBoot:hover,
-    #CardTsSql:hover,
+    #CardSql:hover,
     #CardTwBoot:hover,
     #CardWp:hover {
       & #img {
@@ -94,8 +93,8 @@
     & #cardBoot:hover {
       background-image: var(--cor-BootCard);
     }
-    & #CardTsSql:hover {
-      background-image: var(--cor-SqlTsCard);
+    & #CardSql:hover {
+      background-image: var(--cor-SqlCard);
     }
     & #CardTwBoot:hover {
       background-image: var(--cor-BTSCard);

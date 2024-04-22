@@ -1,5 +1,4 @@
 window.revelar = ScrollReveal({ reset: true });
-
 revelar.reveal('.textReveal',{
     duration: 1000,
     distance: '100px',

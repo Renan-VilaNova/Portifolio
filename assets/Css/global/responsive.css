@@ -3,37 +3,31 @@
     opacity: 0.1;
   }
 }
-
 @media (max-width: 575px) {
   body {
     background: linear-gradient(var(--cor-4) 70%, var(--cor-5) 30%);
   }
 }
-
 @media (max-width: 575px) {
   body {
     background: linear-gradient(var(--cor-4) 70%, var(--cor-5) 30%);
   }
 }
-
 @media (min-width: 575px) {
   html {
     height: 100dvh;
   }
 }
-
 @media (min-width: 575px) {
   body {
     height: 100dvh;
   }
 }
-
 @media (min-width: 575px) {
   section {
     height: 100dvh;
   }
 }
-
 @media (max-height: 850px) {
   section {
     height: auto;

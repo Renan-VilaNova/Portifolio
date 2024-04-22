@@ -55,7 +55,6 @@ p {
 header{
   position: sticky;
 }
-
 /* Scrollbar Customized */
 ::-webkit-scrollbar {
   width: 7px;
