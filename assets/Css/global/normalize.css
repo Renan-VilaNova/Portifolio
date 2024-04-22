@@ -20,10 +20,10 @@ nav,section {
 }
 body {
   line-height: 1;
-  background: linear-gradient(90deg, var(--cor-4) 76%, var(--cor-5) 23%);
+  background: linear-gradient(90deg, var(--cor-Dark-Blue) 76%, var(--cor-Deep-Purple) 23%);
   @media (max-width: 575px) {
   .backgroundHome {
-    background: linear-gradient(var(--cor-4) 70%, var(--cor-5) 30%);
+    background: linear-gradient(var(--cor-Dark-Blue) 70%, var(--cor-Deep-Purple) 30%);
   }
 }
 }
@@ -58,8 +58,8 @@ header{
 /* Scrollbar Customized */
 ::-webkit-scrollbar {
   width: 7px;
-  background-color: var(--cor-4);
+  background-color: var(--cor-Dark-Blue);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--cor-3);
+  background-color: var(--cor-Lime);
 }

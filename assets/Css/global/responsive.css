@@ -5,12 +5,12 @@
 }
 @media (max-width: 575px) {
   body {
-    background: linear-gradient(var(--cor-4) 70%, var(--cor-5) 30%);
+    background: linear-gradient(var(--cor-Dark-Blue) 70%, var(--cor-Deep-Purple) 30%);
   }
 }
 @media (max-width: 575px) {
   body {
-    background: linear-gradient(var(--cor-4) 70%, var(--cor-5) 30%);
+    background: linear-gradient(var(--cor-Dark-Blue) 70%, var(--cor-Deep-Purple) 30%);
   }
 }
 @media (min-width: 575px) {
