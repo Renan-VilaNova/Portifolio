@@ -69,8 +69,8 @@
     left: 39%;
     width: 45px;
     height: 180%;
-    background-color: var(--cor-3);
-    box-shadow: 0 0 20px var(--cor-7);
+    background-color: var(--cor-Lime);
+    box-shadow: 0 0 20px var(--cor-Deep-Purple);
     animation: animate 4s linear infinite;
   }
   .border-animated::after {
@@ -79,7 +79,7 @@
     border-radius: 16px;
   }
   .shadow {
-    box-shadow: 0 0 20px var(--cor-7);
+    box-shadow: 0 0 20px var(--cor-Deep-Purple);
   }
   .expandir-Texto:hover {
     transform: scale(1.5);

@@ -18,6 +18,9 @@
     background: linear-gradient(var(--cor-Dark-Blue) 70%, var(--cor-Deep-Purple) 30%);
   }
 }
+section{
+  height: auto;
+}
 @media (min-width: 575px) {
   html {
     height: 100dvh;
@@ -29,12 +32,12 @@
   }
 }
 @media (min-width: 575px) {
-  section {
+  .sections-Heigth {
     height: 100dvh;
   }
 }
 @media (max-height: 850px) {
-  section {
+  .sections-Heigth {
     height: auto;
   }
-}
+} 
