@@ -1,0 +1,106 @@
+#container {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 81vh;
+    color: #ffffff;
+  
+    & #cardHtml,
+    #cardCss,
+    #cardJs,
+    #cardBoot,
+    #CardTsSql,
+    #CardTwBoot,
+    #CardWp {
+      background-color: var(--cor-White);
+      overflow: hidden;
+      border-radius: 16px;
+      max-width: 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 1s;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+      & #img {
+        background-position: center;
+        background-size: cover;
+        width: 360px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.8;
+      }
+      & #content {
+        padding: 20px;
+        overflow: hidden;
+        height: 0px;
+        transform: translateY(30px);
+        opacity: 0;
+        & i {
+          margin-bottom: 0;
+        }
+        & #title {
+          font-size: 4em;
+          font-weight: 900;
+        }
+        & #desc {
+          font-family: "SF UI Text", sans-serif;
+          font-size: 0.9em;
+          font-weight: 600;
+        }
+      }
+      & #arrow {
+        padding-bottom: 15px;
+        font-size: 24px;
+      }
+    }
+    & #cardHtml:hover,
+    #cardCss:hover,
+    #cardJs:hover,
+    #cardBoot:hover,
+    #CardTsSql:hover,
+    #CardTwBoot:hover,
+    #CardWp:hover {
+      & #img {
+        opacity: 1;
+        width: 360px;
+        transition: all 0.5s;
+      }
+      & #content {
+        padding: 20px;
+        height: 360px;
+        transition: all 0.5s;
+        transform: translateY(0);
+        opacity: 1;
+      }
+      & #arrow {
+        rotate: 180deg;
+        transition: all 0.5s;
+      }
+    }
+    & #cardHtml:hover {
+      background-image: var(--cor-htmlCard);
+    }
+    & #cardCss:hover {
+      background-image: var(--cor-cssCard);
+    }
+    & #cardJs:hover {
+      background-image: var(--cor-jsCard);
+    }
+    & #cardBoot:hover {
+      background-image: var(--cor-BootCard);
+    }
+    & #CardTsSql:hover {
+      background-image: var(--cor-SqlTsCard);
+    }
+    & #CardTwBoot:hover {
+      background-image: var(--cor-BTSCard);
+    }
+    & #CardWp:hover {
+      background-image: var(--cor-WpCard);
+    }
+  }

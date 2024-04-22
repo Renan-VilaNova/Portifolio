@@ -1,0 +1,95 @@
+:root {
+  --cor-1: #02733e;
+  --cor-2: #f6f6f6;
+  --cor-3: #13f24b;
+  --cor-4: #090126;
+  --cor-5: #2b1e59;
+  --cor-6: #42208c;
+  --cor-7: #6e34bf;
+  --cor-8: #4831d4;
+  --cor-9: #686868;
+  --cor-White: #f7f7f7;
+  --cor-grey: #f5f4fc;
+  --cor-black: #000000;
+  --cor-htmlCard: linear-gradient(to bottom, var(--cor-White) 10%, #e44d26 60%);
+  --cor-cssCard: linear-gradient(to bottom, var(--cor-White) 10%, #3d8fc5 60%);
+  --cor-jsCard: linear-gradient(to bottom, var(--cor-White) 10%, #eac923 60%);
+  --cor-SqlTsCard: linear-gradient(
+    to bottom,
+    var(--cor-White) 10%,
+    #1f77bc 60%
+  );
+  --cor-BTSCard: linear-gradient(
+    to bottom,
+    var(--cor-White) 30%,
+    #7510f6,
+    #cd6799,
+    #06b6d4
+  );
+  --cor-WpCard: linear-gradient(to bottom, var(--cor-White) 10%, #32373c 60%);
+  --cor-GitHubCard: linear-gradient(
+    to bottom,
+    var(--cor-White) 10%,
+    #de4c36,
+    #000000
+  );
+  --font-SFUI: "SF UI Text", sans-serif;
+}
+
+.backgroundHome {
+  background: linear-gradient(90deg, var(--cor-4) 76%, var(--cor-5) 23%);
+}
+.color3 {
+  background-color: var(--cor-3);
+}
+.color4 {
+  background-color: var(--cor-4);
+}
+.color5 {
+  background-color: var(--cor-5);
+}
+.color6 {
+  background-color: var(--cor-6);
+}
+.color7 {
+  background-color: var(--cor-7);
+}
+.color8 {
+  background-color: var(--cor-8);
+}
+.colorTransparent {
+  background-color: transparent;
+}
+.colorWhite {
+  background-color: var(--cor-White);
+}
+.colorGrey {
+  background-color: var(--cor-grey);
+}
+.colorText3 {
+  color: var(--cor-3);
+}
+.colorText4 {
+  color: var(--cor-4);
+}
+.colorText5 {
+  color: var(--cor-5);
+}
+.colorText6 {
+  color: var(--cor-6);
+}
+.colorText7 {
+  color: var(--cor-7);
+}
+.colorText8 {
+  color: var(--cor-8);
+}
+.colorText9 {
+  color: var(--cor-9);
+}
+.colorTextWhite {
+  color: var(--cor-White);
+}
+.colorBlack {
+  color: var(--cor-black);
+}
